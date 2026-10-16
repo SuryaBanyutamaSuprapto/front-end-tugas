@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<header>
+    <h1>Tugas Frontend Programming: 2 Buttonsss 1234567890-098765432</h1>
+</header>
+
+<button id="btnInfo">Name And NIM</button>
+<button id="btnReset">Reset</button>
+
+<p id="output"></p>
+
+<script>
+  const btnInfo = document.getElementById('btnInfo');
+  const btnReset = document.getElementById('btnReset');
+  const output = document.getElementById('output');
+
+  btnInfo.addEventListener('click', () => {
+    output.textContent = 'Surya Banyutama Suprapto - 535250100';
+  });
+
+  btnReset.addEventListener('click', () => {
+    output.textContent = null;
+  });
+</script>
+
+</body>
+</html>
